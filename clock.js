@@ -6,7 +6,7 @@
   setInterval(function () {
     var 
       d = new Date(),
-      bh = d.getHours().toString(2)
+      bh = d.getHours().toString(2),
       bm = d.getHours().toString(2)
     ;
     
