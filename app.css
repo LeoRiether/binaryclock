@@ -1,10 +1,14 @@
 @charset "utf-8";
 @import url(//fonts.googleapis.com/css?family=Quicksand);
 
-html, body, .wrapper {
+html, body {
   margin: 0;
   padding: 0;
   border: 0;
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+  height: 100%;
 }
 
 body {
@@ -17,18 +21,26 @@ body {
   width: 100%;
 }
 
-.title {
+.title, .subtitle {
   font-family: "Quicksand";
+  text-align: center;
+  margin: .25em;
+}
+
+.title {
   font-size: 64px;
   color: #9B9B9B;
-  text-align: center;
-  margin: 0.5em;
 }
 
 .subtitle {
-  font-family: "Quicksand";
   font-size: 32px;
   color: #C6C6C6;
-  text-align: center;
-  margin: 0.5em;
+}
+
+.footer {
+  
+}
+
+.wrapper {
+  flex: 1;
 }
