@@ -6,8 +6,8 @@
   function updt() {
     var 
       d = new Date(),
-      bh = d.getHours().toString(2),
-      bm = d.getMinutes().toString(2)
+      bh = ('000000' + d.getHours().toString(2)).slice(-6),
+      bm = ('000000' + d.getMinutes().toString(2)).slice(-6)
     ;
     
     for(var i = 6; i > 0; i--) {
