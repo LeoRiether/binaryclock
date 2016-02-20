@@ -11,6 +11,14 @@
     clear: both;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 body {
   display: flex;
   flex-flow: column;
@@ -79,6 +87,12 @@ body {
     height: 1.5em;
 }
 
-.tul .on {
-    background: #8BABD0;
+.tul .on, .i {
+    background: #71afed;
+}
+
+.i {
+    border: medium #f0f0f0;
+    border-radius: 50%;
+    color: #f0f0f0;
 }
