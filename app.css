@@ -76,13 +76,12 @@ body {
 
 .tul {
   margin: 0;
-  margin-bottom: 0.5em;
-  display: inline-block;
+  margin-bottom: 0.5em
   list-style-type: none;
 }
 
 .tul li {
-  display: inline;
+  display: inline-block;
   border-radius: 50%;
   background: #C6C6C6;
   width: 80px;
