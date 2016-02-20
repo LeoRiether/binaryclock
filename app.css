@@ -22,6 +22,7 @@ body {
   font-size: 64px;
   color: #9B9B9B;
   text-align: center;
+  margin: 0.5em;
 }
 
 .subtitle {
@@ -29,4 +30,5 @@ body {
   font-size: 32px;
   color: #C6C6C6;
   text-align: center;
+  margin: 0.5em;
 }
