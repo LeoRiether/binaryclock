@@ -8,7 +8,7 @@
       d = new Date(),
       bh = ('000000' + d.getHours().toString(2)).slice(-6),
       bm = ('000000' + d.getMinutes().toString(2)).slice(-6),
-      bs = ('000000' + d.getSeconds().toString(2)).slice(-6),
+      bs = ('000000' + d.getSeconds().toString(2)).slice(-6)
     ;
     
     for(var i = 6; i > 0; i--) {
@@ -27,7 +27,7 @@
     }
   }
   
-  setInterval(updt, 10000)
+  setInterval(updt, 1000)
   
   updt()
   
