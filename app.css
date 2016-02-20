@@ -1,0 +1,28 @@
+@charset "utf-8"
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+html, body, .wrapper {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+.header {
+  padding: 32px;
+}
+
+.title {
+  font-family: Quicksand;
+  font-size: 64px;
+  color: #9B9B9B;
+}
+
+.subtitle {
+  font-family: Quicksand;
+  font-size: 64px;
+  color: #9B9B9B;
+}
