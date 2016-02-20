@@ -61,6 +61,15 @@ body {
   list-style-type: none;
 }
 
+.ind {
+  background: #71afed;
+  border: thick solid #f0f0f0;
+  font-family: 'Quicksand';
+  font-size: 64px;
+  color: #f0f0f0;
+  text-align: center;
+}
+
 .tul li {
   display: block;
   margin: auto;
@@ -74,11 +83,3 @@ body {
   background: #71afed;
 }
 
-.ind {
-  background: #71afed;
-  border: thick #f0f0f0;
-  border-radius: 50%;
-  font-family: 'Quicksand';
-  font-size: 64px;
-  text-align: center;
-}
