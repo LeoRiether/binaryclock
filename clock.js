@@ -3,7 +3,7 @@
   
   var $ = doc.querySelector.bind(doc)
   
-  setInterval(function () {
+  function updt() {
     var 
       d = new Date(),
       bh = d.getHours().toString(2),
@@ -15,6 +15,10 @@
         $('.h' + i).classList.add('on')
       
     }
-  }, 10000)
+  }
+  
+  setInterval(updt, 10000)
+  
+  updt()
   
 })(window, document)
