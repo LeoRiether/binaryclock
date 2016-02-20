@@ -15,10 +15,13 @@ body {
   background: #E5E5E5;
 }
 
-.header {
-  padding: 24px;
+.header, .wrapper, .footer {
   box-sizing: border-box;
   width: 100%;
+}
+
+.header {
+  padding: 24px;
 }
 
 .title, .subtitle {
@@ -38,7 +41,7 @@ body {
 }
 
 .footer {
-  
+  padding: 24px;
 }
 
 .wrapper {
