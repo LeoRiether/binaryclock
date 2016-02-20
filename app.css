@@ -57,13 +57,13 @@ body {
 
 .tul {
   display: block;
-  margin: 0;
+  margin: auto;
   margin-bottom: 60px;
   list-style-type: none;
 }
 
 .ind {
-  background: #71afed;
+  background: #71afed !important; /*Sorry for the important*/
   border: thick solid #f0f0f0;
   font-family: 'Quicksand';
   font-size: 64px;
@@ -72,8 +72,7 @@ body {
 }
 
 .tul li {
-  display: inline;
-  margin: auto;
+  display: inline-block;
   border-radius: 50%;
   background: #C6C6C6;
   width: 80px;
