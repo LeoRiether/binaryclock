@@ -3,8 +3,8 @@
 
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    display: table;
 }
 
 .cf:after {
@@ -68,4 +68,17 @@ body {
 .tul {
     margin: 0;
     margin-bottom: 0.5em;
+    display: inline;
+    list-style-type: none;
+}
+
+.tul li {
+    border-radius: 50%;
+    background: #C6C6C6;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.tul .on {
+    background: #8BABD0;
 }
