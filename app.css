@@ -92,5 +92,6 @@ body {
   
   .ind {
     font-size: 32px;
+    vertical-align: center;
   }
 }
