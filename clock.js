@@ -7,7 +7,7 @@
     var 
       d = new Date(),
       bh = d.getHours().toString(2),
-      bm = d.getHours().toString(2)
+      bm = d.getMinutes().toString(2)
     ;
     
     for(var i = 6; i > 0; i--) {
