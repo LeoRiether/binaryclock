@@ -13,16 +13,20 @@ body {
 
 .header {
   padding: 32px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .title {
   font-family: Quicksand;
   font-size: 64px;
   color: #9B9B9B;
+  text-align: center;
 }
 
 .subtitle {
   font-family: Quicksand;
-  font-size: 64px;
-  color: #9B9B9B;
+  font-size: 32px;
+  color: #C6C6C6;
+  text-align: center;
 }
