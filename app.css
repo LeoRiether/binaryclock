@@ -3,20 +3,20 @@
 
 .cf:before,
 .cf:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .cf:after {
-    clear: both;
+  clear: both;
 }
 
 .left {
-    float: left;
+  float: left;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 body {
@@ -70,25 +70,27 @@ body {
 }
 
 .wrapper {
+  padding: 20%;
   flex: 1;
 }
 
 .tul {
-    margin: 0;
-    margin-bottom: 0.5em;
-    display: inline;
-    list-style-type: none;
+  margin: 0;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  list-style-type: none;
 }
 
 .tul li {
-    border-radius: 50%;
-    background: #C6C6C6;
-    width: 80px;
-    height: 80px;
+  display: inline;
+  border-radius: 50%;
+  background: #C6C6C6;
+  width: 80px;
+  height: 80px;
 }
 
 .tul .on, .i {
-    background: #71afed;
+  background: #71afed;
 }
 
 .i {
