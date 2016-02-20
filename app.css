@@ -65,7 +65,7 @@ body {
 
 .ind {
   background: #71afed !important; /*Sorry for the important*/
-  border: thick solid #f0f0f0;
+  vertical-align: top;
   font-family: 'Quicksand';
   font-size: 64px;
   color: #f0f0f0;
