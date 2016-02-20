@@ -11,7 +11,7 @@
     ;
     
     for(var i = 6; i > 0; i--) {
-      if bh.substring(i-1, i) == '1'
+      if(bh.substring(i-1, i) == '1')
         $('.h' + i).classList.add('on')
       
     }
