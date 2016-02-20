@@ -1,24 +1,6 @@
 @charset "utf-8";
 @import url(//fonts.googleapis.com/css?family=Quicksand);
 
-.cf:before,
-.cf:after {
-  content: " ";
-  display: table;
-}
-
-.cf:after {
-  clear: both;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
 body {
   display: flex;
   flex-flow: column;
@@ -88,11 +70,11 @@ body {
   height: 80px;
 }
 
-.tul .on, .i {
+.tul .on, .ind {
   background: #71afed;
 }
 
-.i {
+.ind {
     border: medium #f0f0f0;
     border-radius: 50% ;
     color: #f0f0f0;
