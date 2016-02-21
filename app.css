@@ -49,24 +49,33 @@ body {
 
 .footer {
   padding: 24px;
-  background: #C6C6C6;
+  background: #DDDDDD;
+  border-top: 2px solid #CDCDCD;
   position: relative;
   font: 16px "Oxygen";
-  color: #f0f0f0;
+  color: #848484;
 }
 .footer a {
   text-decoration: none;
   color: #71afed;
 }
-.footer:before {
+.footer:before, .footer:after {
   position: absolute;
   content: " ";
   display: block;
   width: 0;
   height: 0;
+}
+.footer:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 14px solid #CDCDCD;
+  top: -14px;
+}
+.footer:after {
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-bottom: 12px solid #C6C6C6;
+  border-bottom: 12px solid #DDDDDD;
   top: -12px;
 }
 
