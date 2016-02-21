@@ -12,7 +12,7 @@ In this case the hours are 001011, which means 11 in decimal.
 
 The minutes now are 001100 in binary or 12 in decimal.
 
-![Seconds = 010000](http://i.imgur.com/gOw4uc0.jpg)
+![Seconds = 010000](http://imgur.com/fqUrksx)
 
 The seconds are 010000, 16 in decimal.
 
