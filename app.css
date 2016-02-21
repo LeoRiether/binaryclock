@@ -50,15 +50,18 @@ body {
 .footer {
   padding: 24px;
   background: #C6C6C6;
+  position: relative;
 }
 .footer:before {
+  position: absolute;
   content: " ";
   display: block;
   width: 0;
   height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid #C6C6C6;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid #C6C6C6;
+  top: -10px;
 }
 
 .wrapper {
