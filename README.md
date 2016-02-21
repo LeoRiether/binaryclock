@@ -7,9 +7,11 @@ See the example:
 ![Hours = 001011](http://i.imgur.com/bSCCzrz.jpg)
 
 In this case the hours are 001011, which means 11 in decimal.
+
 ![Minutes = 001100](http://i.imgur.com/gOw4uc0.jpg)
 
 The minutes now are 001100 in binary or 12 in decimal.
+
 ![Seconds = 010000](http://i.imgur.com/gOw4uc0.jpg)
 
 The seconds are 010000, 16 in decimal.
